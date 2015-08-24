@@ -1,0 +1,144 @@
+<Object>
+Class: genericCheckpointing.util.EmployeeRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 0
+
+Field Name: ff
+Of Type: float
+Of Value: 0.0
+
+Field Name: dd
+Of Type: double
+Of Value: 0.0
+
+Field Name: ll
+Of Type: long
+Of Value: 0
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.StudentRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 0
+
+Field Name: ss
+Of Type: short
+Of Value: 0
+
+Field Name: bb
+Of Type: boolean
+Of Value: false
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.EmployeeRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 1
+
+Field Name: ff
+Of Type: float
+Of Value: 0.0
+
+Field Name: dd
+Of Type: double
+Of Value: 0.0
+
+Field Name: ll
+Of Type: long
+Of Value: 0
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.StudentRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 1
+
+Field Name: ss
+Of Type: short
+Of Value: 0
+
+Field Name: bb
+Of Type: boolean
+Of Value: false
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.EmployeeRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 2
+
+Field Name: ff
+Of Type: float
+Of Value: 0.0
+
+Field Name: dd
+Of Type: double
+Of Value: 0.0
+
+Field Name: ll
+Of Type: long
+Of Value: 0
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.StudentRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 2
+
+Field Name: ss
+Of Type: short
+Of Value: 0
+
+Field Name: bb
+Of Type: boolean
+Of Value: false
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.EmployeeRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 3
+
+Field Name: ff
+Of Type: float
+Of Value: 0.0
+
+Field Name: dd
+Of Type: double
+Of Value: 0.0
+
+Field Name: ll
+Of Type: long
+Of Value: 0
+
+<\Object>
+<Object>
+Class: genericCheckpointing.util.StudentRecord
+
+Field Name: ii
+Of Type: int
+Of Value: 3
+
+Field Name: ss
+Of Type: short
+Of Value: 0
+
+Field Name: bb
+Of Type: boolean
+Of Value: false
+
+<\Object>

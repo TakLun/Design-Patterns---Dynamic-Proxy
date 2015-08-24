@@ -1,0 +1,96 @@
+CS442 Design PPattern
+Spring 2014
+PROJECT 3 README FILE
+
+Due Date: Thursday, April 24, 2014
+Submission Date: Sunday, April 27, 2014
+Grace Period Used This Project: 3 day
+Grace Period Remaining: 0 Days
+Author: Ernie Lee
+e-mail: elee36@binghamton.edu
+
+PURPOSE:
+
+[
+	Develop a program that uses a dynamic proxy in place of an actual defined instance of a class.
+	The purpose of this assignment is to create a generic library for persistent storage of student and employee records. 
+	The code should allow the conversion of objects into a wire format. 
+	The code should be designed using dynamic proxies and reflection so that addition of new objects or serialization 
+	formats causes minimal changes
+]
+
+PERCENT COMPLETE:
+
+[
+	I believe I have completed 100% of this project.
+]
+
+PARTS THAT ARE NOT COMPLETE:
+
+[
+	I do not believe there are parts that are not complete.
+]
+
+BUGS:
+
+[
+	None
+]
+
+FILES:
+
+[
+	StoreRestoreHandler.java, Proxy handler of the program that retrieves the method calls from the main method, and invokes them instead of having the intended object invoking them
+	Driver.java, the main file associated with the genericCheckpointing program that also contains main
+	RestoreI.java,Interface that retrieves information from a text file and uses them to create a new object, and returns it.
+	StoreI.java, Interface that stores all relevent data from an object on to an text file in a specific format
+	StoreRestoreI.java, Tag Interface
+	EmployeeRecord.java, The object whose information is to be stored to a text file and restored back into an object
+	StudentRecord.java, The object whose information is to be stored to a text file and restored back into an object
+	ProxyCreator.java, Creates the dynamic proxy that the program uses to create objects at runtime
+	SerializableObject.java, Empty base class
+	SerializableList.java, List data structure that stores all the SerializableObject instances.
+	README, the text file currently being read
+]
+
+SAMPLE OUTPUT:
+
+[
+	[java] EmployeeRecord objects are equal: true
+     [java] StudentRecord objects are equal: true
+
+
+	
+]
+
+TO COMPILE:
+
+[
+	Compile as: ant compile
+]
+
+TO RUN:
+
+[
+	To run driver:
+		Please run as: ant run
+]
+
+EXTRA CREDIT:
+
+[
+  N/A
+]
+
+
+BIBLIOGRAPHY:
+
+[
+
+	http://www.stackoverflow.com
+
+  	http://www.cs.binghamton.edu/~mgovinda/courses/csx42/px.html
+  
+   Freeman, Eric, Elisabeth Robson, Kathy Sierra, and Bert Bates. 
+   Head First Design Patterns. Sebastopol, CA: O'Reilly, 2004. Print.
+]
